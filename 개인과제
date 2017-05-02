@@ -1,0 +1,23 @@
+<html>
+<head>
+  <meta charset="UTF-8" / >
+</head>
+<body>
+<script type="text/javascript">
+<!--
+var now = new Date();
+var birthday = new Date("2/24/1993");
+var today = new Date(5/2/2017);
+var gap = now.getime() - birthe.getime();
+
+var year = Math.floor;( gap/(1000 * 60 * 60 * 24*365));
+var day = Math.floor; Math.floor;( gap/(1000 * 60 * 60 * 24) - year*365);
+var hour = Math.floor;( gap/(1000 * 60 * 60) - year*365 *24 - day*24);
+var min= Math.floor;( gap/(1000 * 60) - year*365 *24 - day*24 - hour*60);
+var sec= Math.floor;( gap/1000 - year*365 *24 - day*24 - hour*60 - sec*60);
+
+document.write("박소연은 지금까지 " + year + " 년." + day + " 일." + hour + " 시간." + min + " 분." + sec + "초." );
+
+</script>
+</body>
+</html>
